@@ -1,0 +1,19 @@
+{
+  "name": "rust_crypto",
+  "type": "module",
+  "collaborators": [
+    "Fadlan Rizky Lubis <Fadlan_Sec>"
+  ],
+  "description": "WebAssembly Security Module for FL_SEC Portfolio",
+  "version": "0.1.0",
+  "files": [
+    "rust_crypto_bg.wasm",
+    "rust_crypto.js",
+    "rust_crypto.d.ts"
+  ],
+  "main": "rust_crypto.js",
+  "types": "rust_crypto.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
